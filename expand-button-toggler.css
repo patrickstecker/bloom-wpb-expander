@@ -1,0 +1,7 @@
+.expand-button {
+    cursor: pointer;
+}
+
+.expand-container, .close-button, .vc_btn3-container.vc_btn3-inline.close-button {
+    display: none;
+}
