@@ -5,6 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Plugin Name: BLOOM basic WP-Bakery Expander
+ * Plugin URI: https://github.com/patrickstecker/bloom-wpb-expander
  * Description: This Plugin adds expander functionality to a button and any content.\nTo use this Plugin, you need to have WPBakery Page Builder plugin installed and activated.
  * Version: 1.0.0
  * Author: Bloom Web Agency LLC
