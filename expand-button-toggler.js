@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
-    $('.expand-button').click(function() {
+    $('.expand-button').click(function(event) {
+        event.preventDefault();
         var expandClasses = $(this).attr('class').split(' ');
         var expandClass;
         for (var i = 0; i < expandClasses.length; i++) {
@@ -13,10 +14,9 @@ jQuery(document).ready(function($) {
         $('#' + containerId).toggle();
         var closeButton = $('.' + closeClass)
         if (closeButton.length) {
-            closeButton.eq(0).toggle();
-            closeButton.click(function() {
+            closeButton.eq(0).off('click').click(function(event2) {
+                event2.preventDefault();
                 $('#' + containerId).hide();
-                $(this).hide();
             });
         }
     });

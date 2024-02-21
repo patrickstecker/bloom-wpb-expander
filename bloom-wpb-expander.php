@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Plugin Name: BLOOM - Basic WP-Bakery Expander
  * Plugin URI: https://github.com/patrickstecker/bloom-wpb-expander
  * Description: This Plugin adds expander functionality to a button and any content.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Bloom Web Agency LLC
  * Author URI: https://bloomwebagency.com/
  */

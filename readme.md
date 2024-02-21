@@ -12,4 +12,5 @@ Then choose the element, which you want to toggle. It can be anything from a tex
 <b>IMPORTANT</b>: The Container <b>MUST</b> have the same value for the ID as the button. For example: `"expand-button-id-1"` and `"expand-container-1"`.  
 
 ### Optionally: Close-Button
-Optionally you can also add a close button with the class `"close-button"` and another class `"close-button-id-ID"`, that only appears when the content is expanded and can be used to close the content again. The close button must have the same value for the ID as the button and the container. For example: Class: `"close-button-id-1"` Class: `"close-button"`.
+Optionally you can also add a close button with the class `"close-button"` and another class `"close-button-id-ID"`, that only appears when the content is expanded and can be used to close the content again. The close button must have the same value for the ID as the button and the container. For example: Class: `"close-button-id-1"` Class: `"close-button"`.  
+<b>IMPORTANT:</b> The Close-Button must be <b>inside</b> the expand-container.
